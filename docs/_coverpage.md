@@ -1,7 +1,7 @@
 # AresNing's Blogs
 
 
-> HotShiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit...
+> HotShiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit...
 
 
 [GitHub](https://github.com/AresNing)
