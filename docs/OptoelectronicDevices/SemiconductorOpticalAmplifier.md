@@ -4,7 +4,7 @@
 
 ### 1. 法布里-珀罗激光放大器(FP-SOA) （再生放大器）
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918192257724.png" alt="image-20200918192257724" style="zoom: 80%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918192257724.png" alt="image-20200918192257724" style="zoom: 80%;" />
 
 - 将普通的半导体激光器用作光放大器使用，其驱动电流低于其阈值，不产生激光，将处于激光器频谱中心附近的输入光信号放大
 - 优点
@@ -15,7 +15,7 @@
 
 ### 2. 行波激光放大器(TW-SOA)
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918192730628.png" alt="image-20200918192730628" style="zoom: 80%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918192730628.png" alt="image-20200918192730628" style="zoom: 80%;" />
 
 - 相当于没有镜面反射的激光器，在镜端面镀防反射膜，使端面反射率很小($<10^{-4}$)(半导体激光器的反射率~0.3)，形成透明区，无法形成F-P谐振腔，光信号边行进边放大
 
@@ -23,7 +23,7 @@
 
 - 降低端面反射率的方法：镀增透膜(氧化硅、氮化硅、氧化钛)和其他方法相结合(减小反馈耦合进入有源区的光)
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918203011790.png" alt="image-20200918203011790" style="zoom: 67%;" />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918203011790.png" alt="image-20200918203011790" style="zoom: 67%;" />
 
   - 倾斜条形结构
 
@@ -65,13 +65,13 @@
 
      (交叉增益调制 XGM)：$\lambda_1$的数据信号、$\lambda_2$的连续光(CW)
 
-     <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200919103732137.png" alt="image-20200919103732137" style="zoom:67%;" />
+     <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200919103732137.png" alt="image-20200919103732137" style="zoom:67%;" />
    
      (交叉相位调制 XPM)：数据信号的注入引起SOA载流子数量的变化，使得折射率变化，从而调制CW光的相位
    
    - 光开关：高注入电流，高增益--开态；低注入电流，无增益--关态
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200919102030442.png" alt="image-20200919102030442" style="zoom:80%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200919102030442.png" alt="image-20200919102030442" style="zoom:80%;" />
 
 ### 5. 基于SOA的AOWC
 
@@ -103,7 +103,7 @@
 
 - Turbo-Switch：SOA1-OBF-SOA2
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201006201804305.png" alt="image-20201006201804305"  />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20201006201804305.png" alt="image-20201006201804305"  />
 
   组成：2个SOA和1个宽带的(3dB带宽约为5nm)光带通滤波器(OBF)串联
 
@@ -115,7 +115,7 @@
 
   SOA2输入信号(SOA1输出信号)先迅速下降，后缓慢恢复初始水平，使SOA2表现出反相的增益动态特性，补偿了单个SOA的增益恢复缓慢
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201006210707772.png" alt="image-20201006210707772" style="zoom:67%;" />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20201006210707772.png" alt="image-20201006210707772" style="zoom:67%;" />
 
 - Turbo-Switch：SOA1-DIF-SOA2
 
@@ -167,13 +167,13 @@ CW光均分输入MZI上下两臂，其中一臂同时耦合进信号光，CW光�
 
   在输出端口干涉耦合，实现同相（反相）波长转换
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200926172236645.png" alt="image-20200926172236645" style="zoom:67%;" />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200926172236645.png" alt="image-20200926172236645" style="zoom:67%;" />
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200926172255434.png" alt="image-20200926172255434" style="zoom:67%;" />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200926172255434.png" alt="image-20200926172255434" style="zoom:67%;" />
 
 - SOA-DI结构(SOA后级联延时干涉仪DI)
 
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200926173330031.png" alt="image-20200926173330031" style="zoom: 50%;" />
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200926173330031.png" alt="image-20200926173330031" style="zoom: 50%;" />
 
   在SOA中实现信号光对CW光的XPM（CW光的相位变化~$\pi$），将转换后的光分为两路，一路延时$\Delta t$，与另一路进行干涉；
 

@@ -2,7 +2,7 @@
 
 ### 1. 分布式布拉格反射（DBR）激光器
 
-![image-20200918095101032](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918095101032.png)
+![image-20200918095101032](G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918095101032.png)
 
 1. 原理
   
@@ -22,7 +22,7 @@
 
    - 同时改变$\lambda_m$和$\lambda_b$，可能在较大范围内得到准连续调谐
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918110701518.png" alt="image-20200918110701518" style="zoom: 67%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918110701518.png" alt="image-20200918110701518" style="zoom: 67%;" />
 
 3. 优点
 
@@ -36,7 +36,7 @@
 
 ### 2. 分布式反馈布拉格（DFB）激光器
 
-![image-20200918095049104](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200918095049104.png)
+![image-20200918095049104](G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200918095049104.png)
 
 1. 原理
 
@@ -58,23 +58,23 @@
 
 ###4. Y型耦合腔（干涉效应）
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200917112403037.png" alt="image-20200917112403037" style="zoom: 67%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200917112403037.png" alt="image-20200917112403037" style="zoom: 67%;" />
 
 ### 5. V型耦合腔（固定增益腔+波长选择腔）（游标效应）
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200913114408192.png" alt="image-20200913114408192" style="zoom: 33%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200913114408192.png" alt="image-20200913114408192" style="zoom: 33%;" />
 
 1. 原理
    - 固定增益腔的谐振频率$f=\dfrac{mc}{2n_gL}$，频率间隔$\Delta f=\dfrac{c}{2n_gL}$
    - 波长选择腔的谐振频率$f'=\dfrac{mc}{2n_g'L'}$，频率间隔$\Delta f'=\dfrac{c}{2n_g'L'}=\dfrac{c}{2(n_aL_a+n_bL_b)}$
    - 组合腔的自由光谱范围（FSR）$\Delta f_c=\dfrac{\Delta f\Delta f'}{|\Delta f-\Delta f'|}=\dfrac{c}{2|n_g'L'-n_gL|}$
    - 为了避免两个波长同时被泵浦，$\Delta f_c$一般必须大于激光器增益谱宽度。
-   <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200701204119498.png" alt="image-20200701204119498" style="zoom:50%;" />
+   <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200701204119498.png" alt="image-20200701204119498" style="zoom:50%;" />
    - 激光器工作频率的改变量$\delta f=\dfrac{\Delta f}{|\Delta f-\Delta f'|}\delta f'$ （游标效应）
 
 2. 阈值条件分析
 
-   <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200913114853850.png" alt="image-20200913114853850" style="zoom:50%;" />
+   <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200913114853850.png" alt="image-20200913114853850" style="zoom:50%;" />
 
    - $r_1\eta r_2e^{2(g+ik)L}=1$ 或 $r_1\eta’ r_2e^{2(g'+ik’)L}=1$
 
@@ -90,26 +90,25 @@
 
    - 交叉耦合系数减小，反射率修正因子（有效反射率）$|\eta|^2$的谐振峰变窄（模式选择性变好），但是对比度（阈值差）降低
 
-     <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200702135408030.png" alt="image-20200702135408030" style="zoom: 50%;" />
+     <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200702135408030.png" alt="image-20200702135408030" style="zoom: 50%;" />
 
-     <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200702142837586.png" alt="image-20200702142837586" style="zoom:50%;" />
+     <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200702142837586.png" alt="image-20200702142837586" style="zoom:50%;" />
 
    - 增加固定增益腔和波长选择腔的长度差，可增加阈值差，但同时降低$\Delta f_c$；当两个谐振腔中的回路增益相等，即$gL=g'L'$，阈值差达到最大，模式选择性最高，故应尽量避免回路增益的波动
 
-     <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200916214857363.png" alt="image-20200916214857363" style="zoom: 67%;" />
+     <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200916214857363.png" alt="image-20200916214857363" style="zoom: 67%;" />
      
-     <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200702191313894.png" alt="image-20200702191313894" style="zoom: 50%;" />
-     
+     <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200702191313894.png" alt="image-20200702191313894" style="zoom: 50%;" />
    
 4. 半波耦合器的设计（重要组成部分）
 
-   <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200916202022663.png" alt="image-20200916202022663" style="zoom: 80%;" />
+   <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200916202022663.png" alt="image-20200916202022663" style="zoom: 80%;" />
 
    - 目的：实现两个端口有同步的输出，即在某谐振波长下两个端口输出能量同时达到最大
 
    - 满足条件：$|C_{11}|+|C_{21}|=1$和$|C_{12}|+|C_{22}|=1$
 
-   <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200916203554360.png" alt="image-20200916203554360" style="zoom:50%;" />
+   <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200916203554360.png" alt="image-20200916203554360" style="zoom:50%;" />
 
    两个输入电场的相位相反，即$\varphi=\pi$，两个输出电场同时达到最大；
 
@@ -117,7 +116,7 @@
 
    - 结构：三个平行波导形成两个$\frac{1}{4}$波耦合器（定向耦合器），整体形成半波耦合器，实际操作中把中间的波导与两个相邻波导合并连接
 
-     ![image-20200916204536930](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200916204536930.png)
+     ![image-20200916204536930](G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200916204536930.png)
      
      
 
@@ -160,11 +159,11 @@
 $$
    
 - 普通干涉模式(general interference)：输入波导的输入位置无任何限制
-   
-  <img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200923205225846.png" alt="image-20200923205225846" style="zoom: 67%;" />
-   
+  
+  <img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200923205225846.png" alt="image-20200923205225846" style="zoom: 67%;" />
+  
 - 限制干涉模式(restricted interference)：输入波导的输入位置相对于多模干涉区的中心偏移$\pm\frac{W_{MMI}}{6}$时
-   
+  
    - 对称干涉模式(symmetric interference)：输入波导从多模干涉区的中心输入
 
-<img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20200923205008882.png" alt="image-20200923205008882" style="zoom: 50%;" />
+<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200923205008882.png" alt="image-20200923205008882" style="zoom: 50%;" />
