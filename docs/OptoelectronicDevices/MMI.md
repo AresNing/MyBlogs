@@ -36,14 +36,14 @@ $$
 
 - 普通干涉模式(general interference)：输入波导的输入位置无任何限制
   
-  <img src="\OptoelectronicDevices\pics\image-20200923205225846.png" alt="image-20200923205225846" style="zoom: 67%;" />
+  ![普通干涉模式](pics\image-20200923205225846.png)
   
 - 限制干涉模式(restricted interference)：输入波导的输入位置相对于多模干涉区的中心偏移$\pm\frac{W_{MMI}}{6}$时
   
    - 对称干涉模式(symmetric interference)：输入波导从多模干涉区的中心输入
    - 配对干涉模式(paired interference)：输入波导从多模干涉区的$\pm\frac{W}{6}$输入
 
-<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20200923205008882.png" alt="image-20200923205008882" style="zoom: 50%;" />
+![配对干涉模式](pics\image-20200923205008882.png)
 
 ### 3. 重叠成像 Overlapping Imaging
 
@@ -51,7 +51,7 @@ $$
 
 正像之间或反像之间不可能出现重叠；正像与反像之间可以出现重叠。
 
-<img src="G:\AresNing's Blogs\docs\OptoelectronicDevices\pics\image-20201027084138131.png" alt="image-20201027084138131" style="zoom:50%;" />
+![重叠成像](pics\image-20201027084138131.png)
 
 #### 3.1 重叠成像的条件
 
