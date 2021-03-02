@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+
 </head>
 <body>
   <div id="app"></div>
@@ -51,7 +53,20 @@
         // 同一域下的多个网站之间 
         namespace: 'website-1',
     }
-    }
+      
+      darkMode: {
+    	dark: {
+      		background: "#1c2022",
+      		toggleBtnBg: "#34495e",
+      		textColor: "#b4b4b4"
+    	},
+    	light: {
+      		background: "white",
+      		toggleBtnBg: "#4B20BE",
+      		textColor: "#4B20BE"
+    	}
+  	}
+	}
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -61,9 +76,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  
-  <script>
-	  const gitalk = new Gitalk({
+    
+  const gitalk = new Gitalk({
 		clientID: '3c9dd96eefe285294c0a',
 		clientSecret: 'f3ef41d5e722ab7421771ad7a28308231a689df1',
 		repo: 'MyBlogs',
@@ -72,7 +86,8 @@
 		// facebook-like distraction free mode
 		distractionFreeMode: false
 	  })
-  </script>
+	  
+  <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
   
 </script>
 </body>
