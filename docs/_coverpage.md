@@ -5,7 +5,8 @@
 
 > Hungry & Humble
 
-[GitHub](https://github.com/AresNing)
+[**ZhiHu**](https://www.zhihu.com/people/kjn-68-8)
+[**GitHub**](https://github.com/AresNing)
 
 <!-- 背景图片 -->
 <!--![](pics/bg.png) -->
