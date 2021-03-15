@@ -18,6 +18,7 @@
 
 - Optical Module
   - [Optical Module](OpticalModule/OpticalModule.md)
+  - [Packaging](OpticalModule/Packaging.md)
 
 
 - Optical Design
