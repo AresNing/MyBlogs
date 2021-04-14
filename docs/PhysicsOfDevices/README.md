@@ -5,4 +5,8 @@
 
 - [Quantum Well Design](\PhysicsOfDevices\量子阱设计.md)
 
+
 - [Semiconductor Optoelectronics](\PhysicsOfDevices\SemiconductorOptoelectronics.md)
+
+
+- [Binary/Ternary/Quaternary Material Parameters](PhysicsOfDevices\BinaryTernaryQuaternary.md)
