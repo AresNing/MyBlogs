@@ -11,6 +11,7 @@
   - [Multimode Interference](OptoelectronicDevices/MMI.md)
   - [Semiconductor Optical Amplifier](OptoelectronicDevices/SemiconductorOpticalAmplifier.md)
   - [Tunable Lasers](OptoelectronicDevices/TunableLasers.md)
+  - [Electro-absorption Modulators](OptoelectronicDevices/EAM.md)
   - [AWG](OptoelectronicDevices/AWG.md)
 
 
@@ -33,3 +34,4 @@
 
 - **Misc.**
   - [Rsoft2013 Crack](Misc/Rsoft2013Crack.md)
+  - [Xmind8 Crack](Misc/Xmind8Crack.md)

@@ -11,5 +11,6 @@
 
 - [Tunable Lasers](OptoelectronicDevices\TunableLasers.md)
 
+- [Electro-absorption Modulators](OptoelectronicDevices\EAM.md)
 
 - [AWG](OptoelectronicDevices\AWG.md)

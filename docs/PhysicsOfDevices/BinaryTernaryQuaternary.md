@@ -37,7 +37,7 @@ $$
 
 ### Lattice constant $a_0$ ($\overset{\circ}{A}$)
 
-According to [Vegard's law](# Ternary ($A_{1-x}B_xC$)), 
+According to Vegard's law, 
 $$
 a(A_{1-x}B_xC)=(1-x)a(AC)+xa(BC)
 $$
